@@ -1,7 +1,13 @@
-// Exercise 11: Write a function named 'reverseWords' that takes a string of text and returns the string with the order of the words reversed.
+// Exercise 11: Write a function named 'reverseWords' that takes a string of text and returns the string with the order of
+//
+//  the words reversed.
 
 function reverseWords(text) {
-  // your code here
+  let letterArray = "";
+  const letter = text.split(" ");
+  // console.log(letter);
+  const reversedLetters = letter.reverse();
+  return letter;
 }
 
-console.log(reverseWords('The quick brown fox')) // 'fox brown quick The'
+console.log(reverseWords("The quick brown fox")); // 'fox brown quick The'
